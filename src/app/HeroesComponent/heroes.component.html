@@ -1,0 +1,15 @@
+<h2 class="text-primary">My Heroes</h2>
+<ul class=" heroes">
+  <li *ngFor="let hero of heroes">
+    <a class="text-dark" routerLink="/detail/{{hero.id}}">
+      <span class="badge text-dark">{{hero.id}}</span> {{hero.name}}
+    </a>
+  </li>
+</ul>
+
+
+
+
+
+
+
